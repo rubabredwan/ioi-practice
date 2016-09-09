@@ -9,12 +9,12 @@
 #define repn(i, n)	for(int i=1;i<=n;i++)
 #define set(i, n)	memset(i, n, sizeof(i))
 
-#define mx			10005
-#define pb			push_back
+#define mx		10005
+#define pb		push_back
 
-#define inf			(1 << 29)	
-#define	eps			1e-6
-#define pi 			acos(-1)
+#define inf		(1 << 29)	
+#define	eps		1e-6
+#define pi 		acos(-1)
 
 using namespace std;
 
