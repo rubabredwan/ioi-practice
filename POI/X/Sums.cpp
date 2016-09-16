@@ -36,10 +36,10 @@ void init(){
 
 int main(){
 	int x;
-	cin >> n;
-	rep(i, n) cin >> a[i];
+	scanf("%d", &n);
+	rep(i, n) scanf("%d", &a[i]);
 	init();
-	cin >> q;
+	scanf("%d", &q);
 	while(q--){
 		scanf("%d", &x);
 		if(dis[x % a[0]] <= x) cout << "TAK\n";
