@@ -8,7 +8,7 @@
 
 #define mx		107
 #define pb		push_back
-#define inf 	(1 << 30)
+#define inf		(1 << 30)
 
 #define f	first
 #define s 	second
