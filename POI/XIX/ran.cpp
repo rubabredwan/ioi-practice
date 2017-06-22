@@ -137,7 +137,7 @@ int main(){
 	while(q--){
 		scanf("%d %d", &x, &y);
 		pii ret = get(x, y);
-		cout << ret.first << ' ' << ret.second << endl;
+		printf("%d %d\n", ret.first, ret.second);
 	}
 	return 0;
 }
